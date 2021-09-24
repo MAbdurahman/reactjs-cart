@@ -210,11 +210,18 @@ nav svg {
 .cart h2 {
 	text-transform: uppercase;
 	text-align: center;
-	margin-bottom: 3rem;
+	margin-top: 1em;
+	margin-bottom: .3em;
+	color: var(--clr-loader);
+}
+.cart img {
+	width: 75%;
+	margin: 0 auto;
 }
 .empty-cart {
-	text-transform: lowercase;
+	text-transform: capitalize;
 	color: var(--clr-grey-5);
+	color: var(--clr-loader);
 	margin-top: 1rem;
 	text-align: center;
 }
@@ -240,6 +247,32 @@ nav svg {
 	background: var(--clr-red-light);
 	color: var(--clr-red-dark);
 	border-color: var(--clr-red-light);
+}
+
+/*tablet landscape and desktop layout (960px or more) */
+@media only screen and (min-width: 960px) {
+   /*...tablet landscape and desktop styles */
+}
+
+/*table portrait layout (768px to 959px) */
+@media only screen and (max-width: 959px) {
+   /*... tablet portrait styles */
+}
+
+/*mobile landscape layout (480px to 767px) */
+@media only screen and (max-width: 767px) {
+   /*...mobile landscape styles */
+}
+
+/*mobile portrait layout (479px or less) */
+@media only screen and (max-width: 479px) {
+   /*...mobile portrait styles */
+	.cart h2 {
+		margin-bottom: .333em;
+	}
+	.cart img {
+		width: 100%;
+	}
 }
 
 /*=============================================
