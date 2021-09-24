@@ -7,7 +7,7 @@ import { useGlobalContext } from './../utils/context';
 export default function App() {
 	const { loading } = useGlobalContext();
   
-	if (true) {
+	if (loading) {
 		return (
 			<div className='loading'>
 				<SpinningCircles
