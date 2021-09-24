@@ -45,6 +45,7 @@
   --fixed-width: 50rem;
   --font-body: 'Source Code Pro', monospace;
   --font-heading: 'Montserrat', sans-serif;
+  --clr-loader:  #003e6b;
 }
 
 body {
