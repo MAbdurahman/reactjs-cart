@@ -1,4 +1,4 @@
-export default [
+const data = [
    {
       id: 1,
       title: 'Sony PlayStation',
@@ -35,3 +35,5 @@ export default [
 		amount: 1,
 	},
 ];
+
+export default data;

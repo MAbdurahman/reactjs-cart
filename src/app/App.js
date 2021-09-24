@@ -6,7 +6,8 @@ import { useGlobalContext } from './../utils/context';
 
 export default function App() {
 	const { loading } = useGlobalContext();
-	if (loading) {
+  
+	if (true) {
 		return (
 			<div className='loading'>
 				<SpinningCircles
@@ -19,7 +20,7 @@ export default function App() {
 					strokeWidth={2}
 					strokeOpacity={0.725}
 				/>
-        <h4>Loading . . .</h4>
+        <h4 className='loading-text'> L o a d i n g  .  .  .</h4>
 			</div>
 		);
 	}
