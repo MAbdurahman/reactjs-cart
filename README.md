@@ -9,3 +9,6 @@ First install node_modules folder
 
 Then to start app in browser at http://localhost:3000
 ### `npm start or yarn start`
+
+
+![reactjs-cart](https://user-images.githubusercontent.com/20928980/135236084-bdaee2ca-e6ca-4596-9bee-b1e4b174c505.png)
